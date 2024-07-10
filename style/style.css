@@ -1,8 +1,78 @@
 
-  
-  .open-sans-normal {
+.open-sanse-azeto {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
-    font-weight: weight;
+
     font-style: normal;
+    font-variation-settings: "wdth" 100;
   }
+  
+  
+  
+
+/* nav style */
+nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 55px 215px;
+}
+.nav-title{
+
+    font-weight: 800px;
+    font-size: 28px;
+    color:#0D1321 ;
+}
+
+nav ul{
+
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+list-style: none;
+margin-right: 50px;
+
+}
+nav ul a{
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+
+.group-img{
+
+    margin-left: 600px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    
+}
+
+.group-banner{
+
+
+    font-size: 48px;
+    color: #0D1321;
+    font-weight:800;
+}
+
+.group-picture{
+
+    width:240px
+}
+
+
+.btn-primary{
+   background-color:white;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 17px 24px 17px 24px;
+    font-weight: 600;
+    text-align: center;
+    opacity: 0.8;
+    margin: 0px 10px;
+}
+
